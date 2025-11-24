@@ -1,12 +1,13 @@
 # use official node image
-FROM node:20
+FROM node:18
 
 #set working dir
 WORKDIR /app
 
 #copy files
 
-COPY package*.json ./
+COPY package.json package.json
+
 RUN npm install
 COPY . .
 
