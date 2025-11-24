@@ -1,0 +1,87 @@
+#github local repo upload on the github
+
+#to intilize the repo
+git init
+
+#to stage files 
+
+git add .
+
+# to commit file local
+git commit -m "message that you wnat "
+
+#to connect to an github repo create a simple empty repo on git hub then 
+
+git remote add origin https://github.com/MrRinkukumar2004/node-cicd.git
+
+#command like : git add origin <your_Branch_LINK>
+
+
+
+
+ubuntu@ip-172-31-73-97:~$ history 
+    1  sudo -i
+    2  docker images
+    3  whomi
+    4  whoami
+    5  sudo -i
+    6  docker images
+    7  exit
+    8  docker images
+    9  sudo -i
+   10  docker images
+   11  bash
+   12  exit
+   13  docker images
+   14  docker rm -f 7aa8
+   15  docker container ls
+   16  docker rm -f c6e
+   17  history
+ubuntu@ip-172-31-73-97:~$
+
+
+
+root@ip-172-31-73-97:~# history
+    1  mkdir app
+    2  cd app/
+    3  ls
+    4  cat > dockerfile
+    5  cat dockerfile
+    6  cat > package.json
+    7  cat package.json
+    8  cat > server.js
+    9  cat server.js
+   10  docker --version
+   11  cure -v
+   12  curl -v
+   13  curl https://get.docker.com |bash
+   14  docker
+   15  docker build -t  expressapplication .
+   16  docker images
+   17  ls
+   18  cat dockerfile
+   19  usermod -aG docker ubuntu
+   20  cat /etc/group
+   21  exit
+   22  usermod -aG docker ubuntu
+   23  cat /etc/group
+   24  exit
+   25  history
+root@ip-172-31-73-97:~#
+
+
+Connection to 3.83.192.107 closed by remote host.
+Connection to 3.83.192.107 closed.
+PS C:\Users\HP\Downloads> history
+
+  Id CommandLine
+  -- -----------
+   1 try { . "c:\Users\HP\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\te... 
+   2 ssh -i .\cicd.pem  ubuntu@3.83.192.107
+   3 cd ../../..
+   4 cd .\Downloads\
+   5 ssh -i .\cicd.pem  ubuntu@3.83.192.107
+   6 ssh -i .\cicd.pem  ubuntu@3.83.192.107
+
+
+PS C:\Users\HP\Downloads> 
